@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinyl</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body class="semmargem">
+    
+    <header class="cabecalho">
+        <img src="./Imagens/Logo.png" class="logo">
+        <h1 class="titulo fonte" style="font-size: 40px;" >S.T Discos de Vinil </h1>
+        <p><h2 class="subtitulo fonte" style="font-size: 30px;">Catálogo para Adicionar Discos de Vinil </h2></p>
+    </header>
+    
+
+    <div class="container1 fonte">
+        <h1 class="textobranco fonte">Discos :</h1>
+    <div id="itemList"></div>
+    </div>
+
+    <div class="container2 fonte" style="margin-top: 20px;">
+        <h1>Catálogo de Vinil</h1>
+        <form id="itemForm" >
+            <label for="itemName" >Nome do Disco:</label><br>
+            <input type="text" id="nome" required><br>
+
+            <label for="itemArtist">Artista:</label><br>
+            <input type="text" id="artista" required><br>
+
+            <label for="itemYear">Ano:</label><br>
+            <input type="number" id="ano" required><br>
+
+            <label for="itemGender">Gênero:</label><br>
+            <input type="text" id="genero" required><br>
+
+            <label for="itemTracks">Quantidade de faixas:</label><br>
+            <input type="number" id="qtfaixas" required><br>
+
+            <label for="itemCover">Capa do Disco (URL):</label><br>
+            <input type="text" id="capa" required><br>
+
+            <button type="submit" style="margin-top: 20px;">Adicionar Item</button>
+        </form>
+    </div>
+
+    <div>
+        <p class="rodape">Todos os Diretos Reservados - SocioTech 2024</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

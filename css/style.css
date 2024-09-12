@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*FUNDO*/
+body {
+    background-size: cover; 
+    background-image: url('https://goodstorage.com.br/wp-content/uploads/2022/08/Aprenda-como-organizar_-guardar-e-conservar-os-discos-de-vinil.webp'); /* Imagem de fundo */
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+/* Define o estilo do cabeçalho, incluindo cor de fundo, espaçamento e posicionamento */
+.cabecalho {
+    margin: 10px;
+    padding: 2%;
+    background-color: #f52a2ac8; 
+    padding-top: 0.5px; 
+    height:auto; 
+    margin-bottom: 15px; 
+    width: auto; 
+    border-bottom: solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    vertical-align: middle;
+    align-items: center;
+    position: relative;
+
+}
+/*LOGO SOCIOTECH NO CABEÇALHO*/
+.logo{ 
+    vertical-align: auto;
+    padding: auto;
+    margin-top: 1px;
+    margin-left: 40px; 
+    width:12%; 
+    position:absolute;
+    align-items: center;
+    
+}
+
+/* CONTEINER DE TITULO DISCOS */
+.container1 {
+    float: left; /* Alinha à esquerda */
+    width: 57%; 
+    margin-left: 2%; 
+    
+}
+/*TEXTO E BORDA "DISCOS"*/
+.textobranco{
+    color: aliceblue; 
+    margin-top: 25px;
+    text-align: center; /* Alinhamento central */
+    background-color: #aa1a1ae2; 
+    background-size: auto; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+
+/* CAIXA DE INPUT DAS INFORMAÇOES */
+input {
+    width: 90%; /* Largura dos inputs */
+}
+/*CONTEINER DO CATALOGO PARA INSERIR DADOS DO DISCO*/
+.container2 {
+    background-color: rgba(0, 0, 0, 0.87); 
+    color: antiquewhite;
+    font-size: 18px; 
+    float: right; 
+    width: 35%; 
+    padding-left: 2%; 
+    margin-right: 2%; 
+    border-radius: 30px; /* Borda arredondada */
+    border: 5px solid #ff0000c8; /* Borda sólida com cor */
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+    padding-bottom: 4%;
+    overflow-x: hidden; 
+}
+
+
+/*ITEM ADICIONADO*/
+.item {
+    margin-left: 15px; 
+    margin-bottom: 15px; 
+    background-color: rgb(197, 147, 142); 
+    float: left; 
+    text-align: center; 
+    border: solid rgb(255, 255, 255); 
+    border-width: 7px; 
+    box-shadow: 4px 4px 4px black;
+}
+/*IMAGEM DO ALBUM DENTRO DO CONTEINER */
+.item img {
+    height: 200px; 
+    width: 200px; 
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */   
+}
+
+
+
+/* ALINHAR TITULO E SUBTITULO E TIRAR MARGEM --------------------------------------------------------------------------------------------------------------------*/
+.titulo{
+    padding: 25px; 
+    margin-left: 15px;
+    text-align:center;
+    bottom: 0;
+    justify-items: auto;
+    
+}
+.subtitulo{
+    padding: 0px;
+    margin-top: auto; 
+    margin: 1px; 
+    text-align: center; 
+}
+/* TIRA MARGEM PADRAO */
+.semmargem {
+    margin: 0%; /* Margem zero */
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* FONTE DAS LETRAS */
+.fonte {
+    font-family: "Bebas Neue", sans-serif; 
+    font-weight:200; 
+    font-style: normal; 
+}
+
+/* RODAPÉ */
+.rodape{
+    background-color: #f52a2a4d; 
+    text-align: center; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    height: 3%; 
+    color: azure;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+@media (min-width: 425px){
+    hr{
+        margin: auto;
+        width: 100%;
+        border: 2px solid rgb(0, 119, 255);
+    }
+}
+
