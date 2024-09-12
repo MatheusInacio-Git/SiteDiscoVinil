@@ -27,4 +27,4 @@ O projeto é composto pelos seguintes arquivos:
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone [[https://github.com/linkmatheusinacio/nome-do-repositorio.git](https://github.com/MatheusInacio-Git/SiteDiscoVinil.git)](https://github.com/MatheusInacio-Git/SiteDiscoVinil.git)
+   git clone https://github.com/MatheusInacio-Git/SiteDiscoVinil.git
